@@ -29,7 +29,7 @@ st.caption("دستیار هوشمند آکام تجارت آتیه پارسیا�
 # -------------------------
 with st.sidebar:
    
-    page = st.radio(
+    page = st.selectbox(
         "انتخاب بخش",
         [
             "🏠 داشبورد",
